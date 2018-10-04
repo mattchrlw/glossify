@@ -1,0 +1,3 @@
+Name,Symbol,Definition
+group,"(G,\cdot)","a set of elements equipped with an operation, combining any two elements to form a third element, and that satisfies closure, associativity, identity and invertibility."
+ring,"(R,+,\cdot)",a set equipped with two binary operations that generalise the arithmetic operations of addition and multiplication.

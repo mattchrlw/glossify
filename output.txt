@@ -1,0 +1,14 @@
+\newglossaryentry{group}
+{
+	name=group,
+	description=a set of elements equipped with an operation, combining any two elements to form a third element, and that satisfies closure, associativity, identity and invertibility.,
+	symbol=$(G,\cdot)$
+}
+
+\newglossaryentry{ring}
+{
+	name=ring,
+	description=a set equipped with two binary operations that generalise the arithmetic operations of addition and multiplication.,
+	symbol=$(R,+,\cdot)$
+}
+
