@@ -1,14 +1,161 @@
+\newglossaryentry{Abelian group}
+{
+	name={Abelian group},
+	description={a set equipped with a binary operation that satisfies closure, associativity, identity, invertibility and commutativity (or a commutative group)},
+	symbol={$(G,\cdot)$}
+}
+
 \newglossaryentry{group}
 {
-	name=group,
-	description=a set of elements equipped with an operation, combining any two elements to form a third element, and that satisfies closure, associativity, identity and invertibility.,
-	symbol=$(G,\cdot)$
+	name={group},
+	description={a set equipped with a binary operation that satisfies closure, associativity, identity and invertibility},
+	symbol={$(G,\cdot)$}
+}
+
+\newglossaryentry{magma/groupoid}
+{
+	name={magma/groupoid},
+	description={a set equipped with a binary operation that satisfies closure},
+	symbol={$(M,\cdot)$}
+}
+
+\newglossaryentry{monoid}
+{
+	name={monoid},
+	description={a set equipped with a binary operation that satisfies closure, associativity and identity},
+	symbol={$(S,\cdot)$}
 }
 
 \newglossaryentry{ring}
 {
-	name=ring,
-	description=a set equipped with two binary operations that generalise the arithmetic operations of addition and multiplication.,
-	symbol=$(R,+,\cdot)$
+	name={ring},
+	description={a set equipped with two binary operations that generalise the notions of addition and multiplication},
+	symbol={$(R,+,\cdot)$}
+}
+
+\newglossaryentry{semigroup}
+{
+	name={semigroup},
+	description={a set equipped with a binary operation that satisfies closure and associativity},
+	symbol={$(S,\cdot)$}
+}
+
+\newglossaryentry{quasigroup}
+{
+	name={quasigroup},
+	description={a set equipped with a binary operation that obeys the Latin square property},
+	symbol={$(Q, \star)$}
+}
+
+\newglossaryentry{loop}
+{
+	name={loop},
+	description={a set equipped with a binary operation that obeys the Latin square property and has an identity element, or a quasigroup with an identity element},
+	symbol={$(Q, \star)$}
+}
+
+\newglossaryentry{field}
+{
+	name={field},
+	description={a set equipped with two binary operations, which is an abelian group under the addition (with 0 as additive identity), as well as the nonzero elements being an abelian group under the multiplication (with 1 as multiplicative identity), and the multiplication is distributive over the addition},
+	symbol={$(F,+,\cdot)$}
+}
+
+\newglossaryentry{category}
+{
+	name={category},
+	description={consists of objects, morphisms, and composition. Associativity and identity hold},
+	symbol={$C$}
+}
+
+\newglossaryentry{real numbers}
+{
+	name={real numbers},
+	description={the set of all numbers which are, informally, a value of a continuous quantity that can represent a distance along a line},
+	symbol={$\mathbb{R}$}
+}
+
+\newglossaryentry{rational numbers}
+{
+	name={rational numbers},
+	description={the set of all numbers which can be expressed as the quotient $\frac{p}{q}$ such that $p$ and $q$ are integers, and $q$ is non-zero.},
+	symbol={$\mathbb{Q}$}
+}
+
+\newglossaryentry{vector space}
+{
+	name={vector space},
+	description={a set that is closed under finite vector addition and scalar multiplication},
+	symbol={$V$}
+}
+
+\newglossaryentry{topological space}
+{
+	name={topological space},
+	description={a set of points, along with a set of neighbourhoods for each point, satisfying a set of axioms relating points and neighbourhoods},
+	symbol={$N, (X, \tau)$}
+}
+
+\newglossaryentry{metric space}
+{
+	name={metric space},
+	description={a set for which distances between all members of the set are defined},
+	symbol={$(X,d)$}
+}
+
+\newglossaryentry{degenerate interval}
+{
+	name={degenerate interval},
+	description={any set consisting of a single real number},
+	symbol={$-$}
+}
+
+\newglossaryentry{open interval}
+{
+	name={open interval},
+	description={an interval which does not include its limit points},
+	symbol={$(a,b)$}
+}
+
+\newglossaryentry{closed interval}
+{
+	name={closed interval},
+	description={an interval which includes its limit points},
+	symbol={$[a,b]$}
+}
+
+\newglossaryentry{inner product space}
+{
+	name={inner product space},
+	description={a vector space with an additional structure called an inner product, which associates each pair of vectors in the spaces with a scalar quantity (the inner product)},
+	symbol={$-$}
+}
+
+\newglossaryentry{complete space}
+{
+	name={complete space},
+	description={a metric space in which every Cauchy sequence of points in $M$ has a limit in $M$, or converges in $M$. A space is complete if there are no "points missing"},
+	symbol={$-$}
+}
+
+\newglossaryentry{Cauchy sequence}
+{
+	name={Cauchy sequence},
+	description={a sequence whose elements become arbitrarily close to each other as the sequence progresses.},
+	symbol={$-$}
+}
+
+\newglossaryentry{Hilbert space}
+{
+	name={Hilbert space},
+	description={a complete space with an inner product},
+	symbol={$-$}
+}
+
+\newglossaryentry{cyclic group}
+{
+	name={cyclic group},
+	description={a group generated by a single element},
+	symbol={$\langle g \rangle$}
 }
 
